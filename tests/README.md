@@ -8,7 +8,7 @@ Use this document to test each module and the complete system. Mark each test:
 
 For every test, record date, responsible member, setup, result and evidence.
 
-## Member 1 — ESP32 firmware
+## Menna— ESP32 firmware
 
 ### F1: Compilation and upload
 Expected: firmware compiles and uploads to the team's actual ESP32 board.
@@ -29,7 +29,7 @@ DATA,<esp32_millis>,"<ssid>","<bssid>",<channel>,<rssi>
 ```
 Evidence: sample output accepted by Member 2's parser.
 
-## Member 2 — Data acquisition
+## Yousef — Data acquisition
 
 ### D1: Valid record parsing
 Input:
@@ -48,7 +48,7 @@ Expected: CSV created with a header, one row per valid reading, correct timestam
 ### D4: Serial connection
 Expected: reads from selected COM port at agreed baud rate and gives a useful error if port is unavailable or device disconnects.
 
-## Member 3 — Visualization and analysis
+## Tasneem — Visualization and analysis
 
 ### V1: Graph update
 Expected: graph updates when new RSSI readings arrive.
@@ -62,7 +62,7 @@ Expected: baseline is calculated from the agreed empty-room period; method and s
 ### V4: Change indicator
 Expected: agreed states such as `CALIBRATING`, `STABLE` and `POSSIBLE_CHANGE` are shown. Threshold and method are documented. Indicator is not presented as proof of human presence.
 
-## Member 4 — Integration
+## Mostafa — Integration
 
 ### I1: Router to ESP32
 Expected: ESP32 detects the target router and reads RSSI.
