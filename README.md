@@ -19,10 +19,10 @@ This is an experiment, not a proven commercial or safety-grade presence detector
 
 | Member | Role | Files / ownership | Expected delivery |
 |---|---|---|---|
-| 1 | ESP32 Firmware Developer | `firmware/esp32_wifi_scanner/` | Tested firmware, router discovery and RSSI serial records |
-| 2 | Data Acquisition Developer | `python/serial_reader.py`, `python/data_logger.py` | Serial reading, parsing and timestamped CSV logging |
-| 3 | Signal Analysis & Visualization Developer | `python/visualizer.py` | Live RSSI graph, baseline comparison and documented analysis |
-| 4 | Integration & Testing Lead | `README.md`, `docs/`, `tests/README.md`; coordinate `python/main.py` integration | Complete pipeline, experiments, test evidence and final demonstration |
+| Menna | ESP32 Firmware Developer | `firmware/esp32_wifi_scanner/` | Tested firmware, router discovery and RSSI serial records |
+| Yousef | Data Acquisition Developer | `python/serial_reader.py`, `python/data_logger.py` | Serial reading, parsing and timestamped CSV logging |
+| Tasneem | Signal Analysis & Visualization Developer | `python/visualizer.py` | Live RSSI graph, baseline comparison and documented analysis |
+| Mostafa | Integration & Testing Lead | `README.md`, `docs/`, `tests/README.md`; coordinate `python/main.py` integration | Complete pipeline, experiments, test evidence and final demonstration |
 
 Each member must read their detailed assignment in `docs/`.
 
