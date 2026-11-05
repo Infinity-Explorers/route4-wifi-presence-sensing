@@ -1,4 +1,4 @@
-# Member 2 — Data Acquisition and CSV Developer
+# Yousef — Data Acquisition and CSV Developer
 
 ## Role
 You receive measurement records from the ESP32, parse them into structured fields, add timestamps and save them to CSV. You own the data acquisition path, not the ESP32 firmware or final graph design.
@@ -39,7 +39,7 @@ The reader can receive from the selected COM port, valid records become structur
 ## Dependencies and communication
 You need Member 1's agreed serial format, Member 3's expected input structure and Member 4's confirmed COM port/baud rate. Discuss interface changes before implementing them.
 
-## Report to Member 4
+## Report to Mostafa
 Report the COM port tested, whether real readings arrived, number of valid records saved, CSV filename and any connection/parsing issues.
 
 **Important:** You can build and test using sample records before the ESP32 is ready. Real hardware testing is still required for final integration.
