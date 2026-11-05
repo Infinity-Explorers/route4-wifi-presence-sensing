@@ -44,10 +44,10 @@ Fields: ESP32 uptime in milliseconds, SSID, BSSID, Wi-Fi channel and RSSI in dBm
 ## Three-day plan
 
 ### Day 1 — Independent development
-- Member 1: compile and start testing the ESP32 scanner.
-- Member 2: implement parsing and CSV logging using sample records.
-- Member 3: build graph and analysis using simulated readings.
-- Member 4: prepare repository, confirm hardware details, agree on the data format and check progress.
+- Menna: compile and start testing the ESP32 scanner.
+- Yousef: implement parsing and CSV logging using sample records.
+- Tasneem: build graph and analysis using simulated readings.
+- Mostafa: prepare repository, confirm hardware details, agree on the data format and check progress.
 **Checkpoint:** each member demonstrates independent progress. Members 2 and 3 must not wait for the physical ESP32.
 
 ### Day 2 — Integration
@@ -80,7 +80,7 @@ Do not assume a person always makes RSSI decrease. Reflections, multipath, inter
 - Discuss changes to shared interfaces before making them.
 - Member 4 integrates continuously rather than waiting until Day 3.
 
-Suggested branches: `member1/firmware`, `member2/data-acquisition`, `member3/visualization`, `member4/integration`.
+Suggested branches: `Menna/firmware`, `Yousef/data-acquisition`, `Tasneem/visualization`, `Mostafa/integration`.
 
 ## Final acceptance criteria
 1. ESP32 detects the target router's 2.4 GHz broadcast.
