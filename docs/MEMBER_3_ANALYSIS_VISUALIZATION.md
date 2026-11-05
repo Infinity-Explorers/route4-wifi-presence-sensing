@@ -1,4 +1,4 @@
-# Member 3 — Signal Analysis and Visualization Developer
+# Tasneem — Signal Analysis and Visualization Developer
 
 ## Role
 You display RSSI measurements and analyze how they vary across room conditions. You help the team interpret its data; you do not own ESP32 firmware or serial-port acquisition.
@@ -30,7 +30,7 @@ The graph updates when readings arrive, displays RSSI in dBm, is readable, and w
 ## Dependencies and communication
 You need parsed RSSI readings from Member 2, agreement on function inputs and experimental labels from Member 4. You do not need to wait for the ESP32; use simulated readings first.
 
-## Report to Member 4
+## Report to Mostafa
 Report whether the graph works with simulation, what input structure it expects, how baseline/threshold are calculated, and provide screenshots and real-data observations when available.
 
 **Scientific caution:** A person may make RSSI rise or fall depending on the environment and signal path. Multipath, interference and other environmental changes also affect RSSI. The graph shows signal behavior; it does not independently prove presence.
