@@ -1,4 +1,4 @@
-# Member 1 — ESP32 Firmware Developer
+# Menna — ESP32 Firmware Developer
 
 ## Role
 You own the ESP32-side software. Your job is to scan the router's Wi-Fi broadcast, measure RSSI and send structured readings to the Windows laptop over USB serial. You are not responsible for the Python graph or CSV application.
@@ -39,7 +39,7 @@ Firmware compiles for the team's board, detects the selected 2.4 GHz router, rea
 ## Dependencies and communication
 You need the physical ESP32 for final hardware testing, the router's 2.4 GHz SSID, and agreement on the serial format. You can begin before the Python application is ready by using the Arduino serial monitor.
 
-## Report to Member 4
+## Report to Mostafa
 State whether compilation, upload, router discovery and serial output succeeded. Provide at least 10 sample records and report blockers.
 
 **Important:** Fake readings help other members develop their software, but only the real ESP32 and router verify actual Wi-Fi scanning and RSSI measurement.
