@@ -8,12 +8,20 @@ import time
 from datetime import datetime, timezone
 from typing import Iterable, Optional
 
-from serial_reader import (
-    DEFAULT_BAUD,
-    Reading,
-    SerialConnectionError,
-    SerialReader,
-)
+try:
+    from serial_reader import (
+        DEFAULT_BAUD,
+        Reading,
+        SerialConnectionError,
+        SerialReader,
+    )
+except ImportError:
+    from python.serial_reader import (
+        DEFAULT_BAUD,
+        Reading,
+        SerialConnectionError,
+        SerialReader,
+    )
 
 BASE_COLUMNS = ["timestamp_utc", "esp32_millis", "ssid", "bssid", "channel", "rssi_dbm"]
 SUGGESTED_LABELS = ("EMPTY", "OCCUPIED_STILL", "MOVEMENT")
